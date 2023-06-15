@@ -1,0 +1,120 @@
+body{
+    background-image: url(../imagens/macarrraozin.jpg),url(../imagens/fundo12.avif);
+    background-repeat: repeat-x, repeat;
+    background-size: auto,contain;
+    background-position:top right;
+    background-attachment:scroll;
+    
+    
+    
+
+}
+h1#titulo {
+        color: rgba(204, 4, 161, 0.938);
+        box-sizing: content-box;
+}
+p{
+    color: #030002
+}
+h4{
+    color: #030002;
+}
+#final{
+    color: #030002;
+}
+h2{
+    color:rgb(151, 0, 88);
+    border:5px inset rgb(37, 14, 32);
+    text-align: center;
+}
+@font-face{
+    font-family: Amatic;
+    src: url(../fonteS/Amatic-Bold.ttf);
+}
+h1{
+    font-family: Amatic, 'Times new roman', 'sans-serif', 'Courier New', 'cursive';
+    font-size: 100px;
+}
+p{
+    font-style: italic;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-weight:900;
+    font-size:larger ;
+    font-variant: small-caps;
+    text-align: justify;
+    
+}
+h4{
+    font-style: italic;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-weight:900;
+    font-size:larger ;
+    font-variant: small-caps;
+    text-align: justify;
+    color:#ffffff;
+}
+h3{
+    font-style: italic;
+    font-family:'Gill Sans', 'Gill Sans MT',  'Trebuchet MS', sans-serif;
+    font-weight:900;
+    font-size:larger ;
+    font-variant: small-caps;
+     text-align: justify;
+     color:#ffffff;
+}
+h2{
+    font: italic bold small-caps 2em ' Times New Roman';
+    
+}
+.row {
+                                                        /* propriedade para cor de fundo */
+    /*height: 600px;                                       /* propriedade para altura de conteúdo */
+    /*width: 600px;                                        /* propriedade para largura de conteúdo */
+    padding: 5px;  
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    
+          
+                                    /* propriedade para espaçamento ao redor do conteúdo */
+  }
+
+ul {
+    list-style-type: none;
+
+}
+
+  .col {
+    width: 590px;                                        /* propriedade para largura do conteúdo */
+    height: 85px;                                       /* propriedade para altura do conteúdo */
+    box-sizing: border-box;                              /* propriedade para tamanho do conteúdo */
+    border: 5px solid rgb(53, 1, 35);                               /* propriedade para borda do conteúdo */
+    padding: 10px;                                       /* propriedade para espaçamento ao redor do conteúdo */
+    margin: 3px;                                        /* propriedade para margens ao redor do conteúdo */
+    color: #ffffff;                                         /* propriedade para cores do texto do conteúdo */
+    font-weight: bold;                                   /* propriedade para negrito do texto do conteúdo */
+    box-shadow: 0px 5px 8px rgba(0, 0, 25, 0.5);         /* propriedade para sombra do conteúdo */
+    background-color: #000000;         
+    background-image: url(../imagens/fundoverde.jpg);                                 /* propriedade para cor de fundo do conteúdo */
+    font-style: italic;
+    font-family:'Gill Sans', 'Gill Sans MT',  'Trebuchet MS', sans-serif;
+    font-weight:900;
+    font-size:larger ;
+    font-variant: small-caps;
+    color:#ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+/*#media{
+    background-image: url(../imagens/xxxx.jpg);
+    background-size: auto;
+    
+}
+*/
+
+
+  
